@@ -13,13 +13,20 @@ int main(int argc, const char * argv[]) {
         
         NSString *myString = @"I feel like we've greeted the world enough already so we'll just stick with a casual nod at this point and move past the formal greetings.";
         
-        NSString *shoutyString = @""; // Set shoutyString to the upper case version of myString.
+        NSString *shoutyString = [myString uppercaseString]; // Set shoutyString to the upper case version of myString.
+        NSLog(@"Print assigned value of shoutyString: %@", shoutyString);
+        //code
+        //shoutyString.
         
-        NSInteger stringLength = 0; // Set stringLength to the length of myString
+        NSInteger stringlength = [myString length]; // Set stringLength to the length of myString
+        NSLog(@"Print value of stringlength: %ld", (long)stringlength); // XCODE autocorrected this line and line 28, could you
+        // a little further
         
         NSString *sNum = @"43";
+        NSLog(@"Print value of sNum: %@", sNum);
         
-        NSInteger num = 0; // Set num to the integer value of sNum
+        NSInteger num = [sNum integerValue]; // Set num to the integer value of sNum
+        NSLog(@"Print value of num: %ld", (long)num);
         
         // This is a common initializer for NSDate
         NSDate *longLongTimeAgo = [NSDate distantPast];
@@ -34,7 +41,7 @@ int main(int argc, const char * argv[]) {
          
          
          */
-        
+        NSLog(@"Description of longLongTimeAgo: %@", [longLongTimeAgo description] );
         
         
     }
