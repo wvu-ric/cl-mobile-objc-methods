@@ -19,7 +19,7 @@ int main(int argc, const char * argv[]) {
         //shoutyString.
         
         NSInteger stringlength = [myString length]; // Set stringLength to the length of myString
-        NSLog(@"Print value of stringlength: %ld", (long)stringlength); // XCODE autocorrected this line and line 28, could you
+        NSLog(@"Print value of stringlength: %ld", (long)stringlength); // XCODE autocorrected this line and line 28, could you explain why
         // a little further
         
         NSString *sNum = @"43";
@@ -37,7 +37,7 @@ int main(int argc, const char * argv[]) {
         /*
          
          Paste the description of longLongTimeAgo here:
-         
+         0000-12-30 00:00:00 +0000
          
          
          */
